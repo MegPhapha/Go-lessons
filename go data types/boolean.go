@@ -12,3 +12,5 @@ func main() {
   fmt.Println(b3) // Returns false
   fmt.Println(b4) // Returns true
 }
+
+//mostly used for conditional testing//
