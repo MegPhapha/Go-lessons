@@ -34,3 +34,28 @@ func main() {
 		fmt.Println(i)
 	}
 }
+
+// Print i as long as i is less than 6.
+
+package main
+import ("fmt")
+
+func main() {
+	for i:=0; i < 6; i++ {
+		fmt.Println(i)
+	}
+}
+
+
+// in this loop, when the value is "4" jump directly to thne next value//
+
+package main
+import ("fmt")
+
+func main() {
+	for i:=0; i < 10; i++ {
+		if i==4 {
+			continue
+		}
+	}
+}
