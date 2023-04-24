@@ -1,3 +1,5 @@
+//single case switch
+
 package main
 import ("fmt")
 
@@ -26,5 +28,28 @@ func main() {
 		fmt.Print("Sunday")
 	default:
 		fmt.Print("Weekday")  // result is Weekday
+	}
+}
+
+
+
+// multi case switch
+
+packagemain
+import ("fmt")
+
+func main() {
+	day := 6
+
+	switch day {
+	case 1,3,5:
+		fmt.Println("odd weekday")
+	case 2,4:
+		fmt.Println("Even weekday")
+	case 6,7:
+		fmt.Println("Weekend")  // result is Weekend
+	default:
+		fmt.Println("Invalid day of day number")
+
 	}
 }
