@@ -28,3 +28,17 @@ func main() {
 	}
 }
 
+/* nested if 
+this example shows how to use nested if statements*/
+
+package main
+imprt ("fmt")
+
+func main(){
+	fmt.Println("Num s more than 10.")
+	if num > 15 {
+		fmt.Println("Num is also more than 15.")
+	}
+} else {
+	fmt.Println("Num is less than 10.")
+}
